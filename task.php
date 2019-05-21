@@ -110,8 +110,6 @@ Class Manager
 				$this->logger->critical($e->getMessage(), $e->getCode());
 			}
 		}
-
-		return [];
 	}
 
 	/**
